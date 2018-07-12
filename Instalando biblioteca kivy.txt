@@ -1,0 +1,46 @@
+-Instalando Kivy no python2.7
+    - ative o ambiente virtual do python 2.7
+        Ex: activate k27
+    
+    - Instale o kivy utilizando os seguintes comandos no prompt nesta ordem:
+        pip install --upgrade pip wheel setuptools
+
+        pip install docutils pygments pypiwin32 
+        
+        pip install kivy.deps.sdl2 
+        
+        pip install kivy.deps.glew
+
+        pip install kivy.deps.gstreamer
+        (CASo OCORRA UM ERRO DE REDIRECIONAMENTO CONTINUE TENTANDO)
+
+        pip install kivy.deps.angle
+
+        pip install kivy
+
+    - Teste a instalação:
+        Entre no prompt interativo do python digitando python no prompt ed comando.
+        digite fromkivy.app import App no prompt interativo.
+        se tudo estiver ok saia do modo interativo do python com o comando exit()
+
+-Instalando Kivy no python3.5
+    - ative o ambiente virtual do python 3.5
+        Ex: activate k35
+    
+    - Instale o kivy utilizando os seguintes comandos no prompt nesta ordem:
+        digite no google pythonlibs e entre no site de distribuição de bibliotecas do python:
+        https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+        precione ctrl+F e procure kivy, ao achar o nome kivy crick sobre o mesmo.
+
+        Selecione o pacote que corresponda ao seu sistema operacional e faça download.
+        
+        vai pelo prompt até a pasta onde você baixou o arquivo de instalação e digite
+        pip install NOMEDOARQUIVO
+        
+        PS: esse comando instala uma biblioteca no python se a extenção do arquivo de instalação for whl
+
+    - Teste a instalação:
+        Entre no prompt interativo do python digitando python no prompt ed comando.
+        digite fromkivy.app import App no prompt interativo.
+        se tudo estiver ok saia do modo interativo do python com o comando exit()
