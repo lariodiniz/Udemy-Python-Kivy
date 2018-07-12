@@ -1,0 +1,25 @@
+Windows
+	- Certifiqui-se que não existe nenhuma versão do python instalada.
+
+	- Instalar o Python Anaconda:
+		- Baixe no site: www.anaconda.com/download
+		- Instale com as opções padrões. 
+
+	- Verifique se o Python foi instalado:
+		No prompt de comando digite python --version
+
+	[CRIANDO UM AMBIENTE VIRTUAL]
+	-Crie um ambiente virtual:
+		no prompt de comando digite: conda create --name NOMEDOAMBIENTE python=VERSAODOPYTHON
+		Ex: conda create --name k35 python=3.5
+	
+	-listando todos os ambientes virtuais: 
+		no prompt de comando digite: conda env list
+
+	- ativando um ambiente virtual:
+		no prompt de comando digite: activate NOMEDOAMBIENTE
+		Ex: activate k35
+
+	- desativando um ambiente virtual:
+		no prompt de comando digite: deactivate NOMEDOAMBIENTE
+		Ex: deactivate k35
