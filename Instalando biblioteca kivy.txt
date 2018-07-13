@@ -20,7 +20,7 @@
 
     - Teste a instalação:
         Entre no prompt interativo do python digitando python no prompt ed comando.
-        digite fromkivy.app import App no prompt interativo.
+        digite from kivy.app import App no prompt interativo.
         se tudo estiver ok saia do modo interativo do python com o comando exit()
 
 -Instalando Kivy no python3.5

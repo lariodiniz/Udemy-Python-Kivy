@@ -21,5 +21,5 @@ Windows
 		Ex: activate k35
 
 	- desativando um ambiente virtual:
-		no prompt de comando digite: deactivate NOMEDOAMBIENTE
-		Ex: deactivate k35
+		no prompt de comando digite: deactivate
+		Ex: deactivate

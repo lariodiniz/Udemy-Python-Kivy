@@ -1,0 +1,9 @@
+- Crie uma pasta onde será adicionado o programa
+- entre nessa pasta via prompt de comando e crie uma pasta via prompt com o seguinte nome:
+	mkdir .vscode
+- deixe essa pasta oculta
+- crie um arquivo de configuração de ambiente chamado settings.json
+-adicione no arquivo
+{
+    "python.pythonPath":"[CAMINHODOAMBIENTE]"
+}
