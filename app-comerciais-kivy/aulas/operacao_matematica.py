@@ -19,7 +19,7 @@ print(3 % 2)
 print(4 % 2)
 print(5 % 2)
 print(7 % 3.1)
-'''
+
 
 num1 = float(input("Digite um numero: "))
 num2 = float(input ("Digite outro numero: "))
@@ -29,3 +29,13 @@ resto = num1 % num2
 print()
 print(num1, " dividido por ", num2, " é igual a: ", divisao)
 print("o resto da divisão entre ", num1, " e ", num2, " é igual a: ", resto)
+'''
+
+#Potenciação e Radiação
+
+5**2 # 5 ao quadrado
+
+9**8000 # nove elevado a oito mil
+
+#raiz quadrada
+81**(1/2) #raiz quadrada de 81
