@@ -5,4 +5,7 @@ print("Segunda linha.")
 
 """
 
-print("terceira linha") #aqui é um comentário que não será interpretado
+print('terceira linha') #aqui é um comentário que não será interpretado
+
+
+
