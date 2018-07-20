@@ -1,0 +1,17 @@
+PROPRIEDADES PERCENTUAIS
+    pos_hint (dicionario)
+    x
+    y
+    right
+    top
+    center_x
+    center_y
+
+PROPRIEDADES ABSOLUTAS
+    x
+    y
+    pos (Tupla)
+    right
+    center (Tupla)
+    center_x
+    center_y

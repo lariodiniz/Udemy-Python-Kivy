@@ -1,0 +1,9 @@
+PROPRIEDADES PERCENTUAIS
+    size_hint(tupla)
+    size_hint_x
+    size_hint_y
+
+PROPRIEDADES ABSOLUTAS
+    size (tupla)
+    width 
+    heigth
