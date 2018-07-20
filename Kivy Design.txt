@@ -1,0 +1,2 @@
+Entre na Url do github da ferramenta: https://github.com/kivy/kivy-designer
+Baixe o arquivo.

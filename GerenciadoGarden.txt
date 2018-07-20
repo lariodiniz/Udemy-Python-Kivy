@@ -1,0 +1,13 @@
+#tem como objetivo centralizar códigos abertos vinculados a biblioteca kivy
+
+#instalando
+	- Ative o ambiente virtual no promp comando
+	- digite garden no prompt de comando para verificar se o mesmo não esta intalado
+	- digite pip install kivy-garden
+	
+# installando um componente
+	- Ative o ambiente virtual no promp comando
+	- digite no prompt de comando: garden install NOMEDOCOMPONENTE
+	Ex:
+		garden install mapview
+		Nota: Map view são mapas do google
