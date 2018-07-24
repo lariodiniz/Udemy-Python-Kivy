@@ -1,0 +1,3 @@
+- ative o Ambiente de trabalho
+- excute a aplicação com os parametros -m screen: dispositivo
+	ex: python main.py -m screen:ipat

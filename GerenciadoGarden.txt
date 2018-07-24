@@ -11,3 +11,10 @@
 	Ex:
 		garden install mapview
 		Nota: Map view são mapas do google
+
+# usando o pacote
+	-Todos os pacotes estão dentro da biblioteca do garden que esta na biblioteca kivy
+	dessa forma para importar um pacote você precisa usar:
+		import kivy.garden.NOMEDOCOMPONENTE
+		Ex:
+			import kivy.garden.mapview			

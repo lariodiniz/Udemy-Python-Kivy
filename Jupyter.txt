@@ -1,0 +1,6 @@
+- Abra o Prompt
+- ative o Ambiente virtual
+- instale o Jupyter
+	conda install jupyter
+- execute o jupyter no navegador
+	jupyter notebook

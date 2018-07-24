@@ -1,2 +1,11 @@
 Entre na Url do github da ferramenta: https://github.com/kivy/kivy-designer
 Baixe o arquivo.
+ative o ambiente virtual
+instale os pacotes watchdog pygments docutils jedi gitpython six kivy-garden:
+	conda install watchdog 
+	conda install pygments 
+	conda install docutils 
+	conda install jedi 
+	conda install gitpython 
+	conda install six 
+	conda install kivy-garden
