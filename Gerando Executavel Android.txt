@@ -1,0 +1,14 @@
+Abra a maquina virtual KivyVM
+
+1 - Crie uma pasta com os arquivos da aplicação
+2 - Adiciona um arquivo android.txt
+3 - adicione um arquivo README.txt
+4 - adicione um arquivo buldozer.spec
+
+dentro desta pasta execute o comando:
+	buildozer android debug deploy run
+
+
+
+Criar uma pagina para baixar o aplciativo apartir do ip da maquina virtual:
+buildozer serve

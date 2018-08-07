@@ -1,0 +1,18 @@
+WINDOWS
+	[FORMA PADRÂO]
+	- Instale as depenências pywin32, pypiwin32 e pefile
+		pywin32 (Biblioteca de dependencias do windows)
+		- entre no site: https://www.lfd.uci.edu/~gohlke/pythonlibs/
+		- procure o pacote pywin32 (use o procurar (ctrl + F) do navegador caso nessessario).
+		- entre no link do pywin32.
+		- baixe o bacote do seu sistema operacional e do python que vc esta usando no seu ambiente virtual.
+		- ative o ambiente virtual.
+		- va até a pasta onde o esta o arquivo que você baixou.
+		- instale o arquivo com o comando: pip installl NOMEDOARQUIVOCOMEXTENÇÃO
+	- Instale o pyinstaller com o comando pip install pyinstaller
+	
+	[USANDO O ANACONDA]
+	- adicione um canal nas configurações do ambiente virtual:
+		conda config --add channels conda-forge
+	- instale usando o modulo conda:
+		codna install pyinstaller

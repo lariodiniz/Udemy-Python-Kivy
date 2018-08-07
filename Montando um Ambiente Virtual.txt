@@ -1,4 +1,4 @@
-Windows
+﻿Windows
 	- Certifiqui-se que não existe nenhuma versão do python instalada.
 
 	- Instalar o Python Anaconda:
@@ -12,7 +12,10 @@ Windows
 	-Crie um ambiente virtual:
 		no prompt de comando digite: conda create --name NOMEDOAMBIENTE python=VERSAODOPYTHON
 		Ex: conda create --name k35 python=3.5
-	
+
+	- adicione um canal nas configurações do ambiente virtual (Um canal é um diretório com pacotes de instalação):
+		conda config --add channels conda-forge
+
 	-listando todos os ambientes virtuais: 
 		no prompt de comando digite: conda env list
 

@@ -1,0 +1,10 @@
+- baixe o InnoSetup
+	http://www.jrsoftware.org/isinfo.php
+
+- Abra o InnoSetup
+
+- Selecione "Create a new script file using the Script wizard"
+
+
+[Personalização]
+

@@ -1,0 +1,20 @@
+- Ative o Ambiente virtual
+- Vá até a pasta onde está o programa python
+- crie um arquivo spec com o pyinstaller
+	pyi-makespec NOMEDOPROGRAMA.COMEXTENÇÃO
+- Abra o arquivo spec
+- importe os pacotes Kivy que vc vai utilizar
+	ex: from kivy.deps import adl2, glew, gstreamer (aqui tem todos os modos do kivy)
+- adicione o pacote na variavel coll:
+	ex:
+	coll = COLLECT(exe,
+               a.binaries,
+               a.zipfiles,
+               a.datas,
+	       *[Tree(p) for p in (sdl2.dep_bins + glew.dep_bins + gstreamer.dep_bins)], #importacao dos pacotes
+               strip=False,
+               upx=True,
+               name='NomeDaApp')
+
+- gere o executavel utiliazando o spec
+	pyinstaller NOMEDOARQUIVOSPEC.COMEXTENÇÃO

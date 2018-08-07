@@ -1,0 +1,12 @@
+[São arquivos que contém as definições que serão utilizadas por um script Python]
+
+Existe quatro situações que será interessante mudar o spec para o pyInstaller:
+	- Quando precisamos empacotar arquivos de dados junto com a aplicação.
+		Ex: Arquivos de musica ou video.
+
+	- Quando precisamos adicionar uma biblioteca que o pyInstaller não esta reconhecendo
+
+	- Quando precisarmos adicionar parametros no momento que a maquina virtual do pythons esta sendo utilizada
+
+	- Quando precisamos empacotar programas com varios programas dentro dele.
+

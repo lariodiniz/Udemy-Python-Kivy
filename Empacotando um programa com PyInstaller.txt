@@ -1,0 +1,4 @@
+- Ative o Ambiente virtual
+- Vá até a pasta onde está o programa python
+- use o pyinstaller:
+	pyinstaller NOMEDOPROGRAMA.py
