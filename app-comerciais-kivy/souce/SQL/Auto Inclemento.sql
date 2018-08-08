@@ -1,0 +1,20 @@
+DROP TABLE agenda;
+
+CREATE TABLE agenda(
+    ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    NOME TEXT
+);
+
+INSERT INTO agenda (ID, NOME)
+VALUES
+(1,"João");
+
+INSERT INTO agenda (NOME)
+VALUES
+("Maria");
+
+INSERT INTO agenda (NOME)
+VALUES
+("José");
+
+SELECT * FROM agenda;

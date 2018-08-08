@@ -1,0 +1,2 @@
+1 - baixe o programa:
+	https://sqlitebrowser.org/
