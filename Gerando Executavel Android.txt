@@ -12,3 +12,6 @@ dentro desta pasta execute o comando:
 
 Criar uma pagina para baixar o aplciativo apartir do ip da maquina virtual:
 buildozer serve
+
+Nota: demos do buldozer
+/home/kivy/Repos/Python3/kivy/examples/demo/touchtracer/main.py
