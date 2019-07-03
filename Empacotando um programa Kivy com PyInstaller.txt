@@ -5,6 +5,12 @@
 - Abra o arquivo spec
 - importe os pacotes Kivy que vc vai utilizar
 	ex: from kivy.deps import adl2, glew, gstreamer (aqui tem todos os modos do kivy)
+- adicione a pasta onde você esta rodando o pyinstaller no pathex e no Collect
+	ex1:
+		pathex=['C:\soucer\windows64\Empacotador'],
+	ex2:
+		coll = COLLECT(exe, Tree('C:\\soucer\\windows64\\Empacotador'),
+
 - adicione o pacote na variavel coll:
 	ex:
 	coll = COLLECT(exe,

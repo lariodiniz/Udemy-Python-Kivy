@@ -8,6 +8,8 @@ Abra a maquina virtual KivyVM
 dentro desta pasta execute o comando:
 	buildozer android debug deploy run
 
+para lansar uma versão de release faça
+	buildozer android release deploy run
 
 
 Criar uma pagina para baixar o aplciativo apartir do ip da maquina virtual:
